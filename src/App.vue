@@ -1,26 +1,26 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+<div>
+<DropDown />
+</div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import DropDown from './components/Drop-down.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+     DropDown
+  },
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  }
+  *{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+  }
 </style>
